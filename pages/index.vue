@@ -36,7 +36,7 @@ const useTodoStore = defineStore('alerts', {
       maxBodyLength: Infinity,
       url: 'https://86a4h9y007.execute-api.eu-west-1.amazonaws.com/development/nulmeting/todo',
       headers: { 
-        'x-api-key': 'zHUsT9DYvS69RTkaji9lwS7oEX9ddpqaqSbBlFZ4'
+        'x-api-key': ''
       }
     };
     axios.request(config)
